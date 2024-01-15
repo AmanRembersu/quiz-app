@@ -1,0 +1,142 @@
+/* App.css or App.scss */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* You can add more styles as needed for other elements in your App component */
+.quiz-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.question {
+  margin-bottom: 20px;
+}
+
+.options button {
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #0056b3;
+}
+.timer {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #dc3545;
+}
+/* Quiz.css */
+
+.quiz-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.question-container {
+  margin-bottom: 40px;
+}
+
+.question-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #0056b3;
+}
+
+.score-container {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+/* Quiz.css */
+
+/* ... (previous styles) ... */
+
+.disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+/* ... (other styles) ... */
+/* Quiz.css */
+
+/* ... (previous styles) ... */
+
+.timer {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #dc3545;
+}
+
+/* ... (other styles) ... */
